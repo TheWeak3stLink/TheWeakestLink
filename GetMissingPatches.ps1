@@ -87,8 +87,7 @@ if (!$PSBoundParameters.ContainsKey('importResultsXML'))
 else
     {
      $UpdateXML = $importResultsXML
-     Write-Host $UpdateXML
-     } 
+    } 
        
     #Initialize webclient for downloading files
      $webclient = New-Object Net.Webclient
