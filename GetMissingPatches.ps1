@@ -9,10 +9,10 @@
         -wsusscn2.cab
     The files MUST be stored on the same folder
 .EXAMPLE
-    This command will check for missing patches, list them, and generate .bat script to install missing patches
+    This command will check for missing patches and list them. Additionally it will generate .bat script to patch the system automatically
     ./GetMissingPatches -mbsaFolder C:\temp -outputFolder C:\temp 
 .EXAMPLE
-    The -download switch will download missing patches automatically and strore them in C:\temp folder
+    The -download switch will download missing patches automatically and strore them in C:\temp\patches folder
     ./GetMissingPatches -mbsaFolder C:\temp -outputFolder C:\temp -download
 .EXAMPLE 
     The -importResultsXML will import results.xml files generated on isolated environments that doesn't allow to download updates
